@@ -10,3 +10,4 @@ C:\Users\PC16\source\repos\ex\ex\obj\Debug\ex.exe
 C:\Users\PC16\source\repos\ex\ex\obj\Debug\ex.pdb
 C:\Users\PC16\source\repos\ex\ex\obj\Debug\ex.COCOA.resources
 C:\Users\PC16\source\repos\ex\ex\obj\Debug\ex.Form2.resources
+C:\Users\PC16\source\repos\ex\ex\obj\Debug\ex.Data.resources

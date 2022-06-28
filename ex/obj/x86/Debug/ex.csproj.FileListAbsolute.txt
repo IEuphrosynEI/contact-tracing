@@ -10,3 +10,5 @@ C:\Users\PC16\source\repos\ex\ex\obj\x86\Debug\ex.csproj.GenerateResource.cache
 C:\Users\PC16\source\repos\ex\ex\obj\x86\Debug\ex.csproj.CoreCompileInputs.cache
 C:\Users\PC16\source\repos\ex\ex\obj\x86\Debug\ex.exe
 C:\Users\PC16\source\repos\ex\ex\obj\x86\Debug\ex.pdb
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Debug\ex.Form4.resources
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Debug\ex.Data.resources

@@ -1,0 +1,13 @@
+C:\Users\PC16\source\repos\ex\ex\bin\x86\Release\ex.exe.config
+C:\Users\PC16\source\repos\ex\ex\bin\x86\Release\ex.exe
+C:\Users\PC16\source\repos\ex\ex\bin\x86\Release\ex.pdb
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.csproj.AssemblyReference.cache
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.COCOA.resources
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.Form2.resources
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.Properties.Resources.resources
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.csproj.GenerateResource.cache
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.csproj.CoreCompileInputs.cache
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.exe
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.pdb
+C:\Users\PC16\source\repos\ex\ex\obj\x86\Release\ex.Form3.resources

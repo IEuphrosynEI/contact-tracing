@@ -21,17 +21,10 @@ namespace ex
         private void button2_Click(object sender, EventArgs e)
         {
             StreamWriter Name = new StreamWriter(@"C:\Users\PC16\source\repos\ex\ex\name\Information.txt",true);
-            Name.WriteLine("--------------------------------------------");
-            Name.WriteLine("First Name: " + txtbxFirstname.Text );
-            Name.WriteLine("Last Name: " + txtlast.Text);
-            Name.WriteLine("Contact Number: " + txtcontact.Text);
-            Name.WriteLine("E-mail Adress: " + txtemail.Text);
-            Name.WriteLine("Town/ City of Residence: " + txtcity.Text);
+            Name.WriteLine( txtbxFirstname.Text + "," + txtlast.Text + "," + txtcontact.Text + "," + txtemail.Text + "," + txtcity.Text + "," + date.Text);
             Name.Close();
+            
 
-            StreamReader reader = new StreamReader(@"C:\Users\PC16\source\repos\ex\ex\name\Information.txt");
-            string all = reader.ReadToEnd();
-            MessageBox.Show(all);
             this.Hide();
             Form2 f2 = new Form2();
              f2.ShowDialog();
@@ -43,6 +36,15 @@ namespace ex
         }
 
         private void txtbxFirstname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void date_ValueChanged(object sender, EventArgs e)
         {
 
         }

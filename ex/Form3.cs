@@ -36,12 +36,13 @@ namespace ex
         private void button2_Click(object sender, EventArgs e)
         {
             StreamWriter Vac = new StreamWriter(@"C:\Users\PC16\source\repos\ex\ex\name\Vaccine.txt",true);
-            Vac.WriteLine("--------------------------------------------");
             Vac.WriteLine("Vaccine:" + txtvac.Text);
             Vac.Close();
             if (MessageBox.Show("Thank You For Your Response", "Thank You", MessageBoxButtons.OK)==DialogResult.OK)
             {
-                this.Close();
+                this.Hide();
+                Form3 f3 = new Form3();
+                f3.ShowDialog();
             }
         }
 
@@ -56,6 +57,7 @@ namespace ex
         }
 
         private void cb3(object sender, EventArgs e)
+
         {
 
         }

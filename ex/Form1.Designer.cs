@@ -41,6 +41,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtcity = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.date = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -161,9 +163,9 @@
             this.label5.Location = new System.Drawing.Point(54, 559);
             this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(231, 26);
+            this.label5.Size = new System.Drawing.Size(236, 26);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Town/ City of Residence";
+            this.label5.Text = "Town/ City of Residence:";
             // 
             // txtcity
             // 
@@ -187,6 +189,30 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // date
+            // 
+            this.date.CustomFormat = "MM/dd/yyyy";
+            this.date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.date.Location = new System.Drawing.Point(297, 619);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(121, 33);
+            this.date.TabIndex = 12;
+            this.date.ValueChanged += new System.EventHandler(this.date_ValueChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label1.Location = new System.Drawing.Point(230, 619);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 26);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Date";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // COCOA
             // 
             this.AccessibleName = "fullname";
@@ -196,6 +222,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(896, 699);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.date);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtcity);
             this.Controls.Add(this.label5);
@@ -235,6 +263,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtcity;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DateTimePicker date;
+        private System.Windows.Forms.Label label1;
     }
 }
 
